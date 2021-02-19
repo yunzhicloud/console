@@ -1,0 +1,57 @@
+@import '~scss/variables';
+@import '~scss/mixins';
+
+.wrapper {
+  position: relative;
+  display: flex;
+}
+
+.text {
+  & > div {
+    @include TypographyTitleH6($dark-color07);
+  }
+
+  & > p {
+    @include TypographyParagraph($dark-color01);
+  }
+}
+
+.ellipsis {
+  flex: 1;
+  overflow: hidden;
+
+  .text {
+    flex: 1;
+    overflow: hidden;
+
+    & > div {
+      @include ellipsis;
+    }
+    & > p {
+      @include ellipsis;
+    }
+  }
+}
+
+.icon {
+  margin-right: 12px;
+}
+
+.clickable {
+  cursor: pointer;
+
+  &:hover {
+    .text {
+      & > div,
+      & > p {
+        color: $primary;
+      }
+    }
+    .icon {
+      :global .qicon {
+        color: #24337f;
+        fill: #94a2e3;
+      }
+    }
+  }
+}
