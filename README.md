@@ -1,11 +1,13 @@
-# KubeSphere Console
+# Yunzhicloud Console
 
 ![](https://github.com/kubesphere/console/workflows/Main/badge.svg)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-KubeSphere Console is the web-based UI for [KubeSphere](https://github.com/kubesphere/kubesphere) clusters.
+Yunzhicloud Console is the web-based UI of another theme for [KubeSphere](https://github.com/kubesphere/kubesphere) clusters.
 
-![KubeSphere Console](docs/images/dashboard-ui.png)
+![image](https://user-images.githubusercontent.com/77370954/108587295-d5d4ad00-738d-11eb-9abd-95d020caa997.png)
+![image](https://user-images.githubusercontent.com/77370954/108587328-fac92000-738d-11eb-9a52-a01b25a76729.png)
+![image](https://user-images.githubusercontent.com/77370954/108587454-922e7300-738e-11eb-9641-88700075f36a.png)
 
 ## Getting Started
 
